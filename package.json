@@ -17,7 +17,7 @@
     "@sap/cds-dk": "^8.7.1"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve --profile pg"
   },
   "cds": {
     "requires": {
