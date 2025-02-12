@@ -17,7 +17,8 @@
     "@sap/cds-dk": "^8.7.1"
   },
   "scripts": {
-    "start": "cds-serve --profile pg"
+    "start": "cds-serve --profile pg",
+    "watch-project1": "cds watch --open project1/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
@@ -27,7 +28,8 @@
         "[pg]": {
           "kind": "postgres",
           "credentials": {
-            "host": "junction.proxy.rlwy.net", "port": 57194,
+            "host": "junction.proxy.rlwy.net",
+            "port": 57194,
             "user": "postgres",
             "password": "hBmCUvkZcSlhqLzLsLphztQsUzStkEDh",
             "database": "railway"
