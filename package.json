@@ -23,7 +23,7 @@
       "auth": "mocked"
     },
     "db": {
-      "kind": "pg"
+      "kind": "postgres"
     }
 
   }
