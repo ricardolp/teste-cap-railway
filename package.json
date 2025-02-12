@@ -23,8 +23,7 @@
       "auth": "mocked",
       "db": {
         "kind": "postgres",
-        "[pg]": {
-          "kind": "postgres",
+        "[postgres]": {
           "credentials": {
             "host": "localhost", "port": 5432,
             "user": "postgres",
