@@ -22,8 +22,8 @@
   "cds": {
     "requires": {
       "auth": "mocked",
-      "db": "pg",
-      "kinds": {
+      "kind": "pg",
+      "db": {
         "[pg]": {
           "kind": "postgres",
           "credentials": {
