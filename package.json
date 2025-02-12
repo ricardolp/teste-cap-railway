@@ -21,6 +21,10 @@
   "cds": {
     "requires": {
       "auth": "mocked"
+    },
+    "db": {
+      "kind": "pg"
     }
+
   }
 }
