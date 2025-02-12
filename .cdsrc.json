@@ -6,10 +6,10 @@
         "[pg]": {
           "kind": "postgres",
           "credentials": {
-            "host": "localhost", "port": 5432,
+            "host": "junction.proxy.rlwy.net", "port": 57194,
             "user": "postgres",
-            "password": "postgres",
-            "database": "postgres"
+            "password": "hBmCUvkZcSlhqLzLsLphztQsUzStkEDh",
+            "database": "railway"
           }
         }
       }
