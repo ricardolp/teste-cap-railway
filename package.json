@@ -21,17 +21,7 @@
   "cds": {
     "requires": {
       "auth": "mocked",
-      "db": {
-        "kind": "postgres",
-        "model": "db",
-        "credentials": {
-          "host": "localhost",
-          "user": "postgres",
-          "password": "postgres",
-          "database": "postgres"
-      }
+      "db": "sqlite"
     }
-
-  }
   }
 }
