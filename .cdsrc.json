@@ -2,6 +2,7 @@
     "requires": {
       "auth": "mocked",
       "db": {
+        "kind": "postgres",
         "[pg]": {
           "kind": "postgres",
           "credentials": {
